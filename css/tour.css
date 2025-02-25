@@ -1,0 +1,19 @@
+        .tours-hero {
+            color: white;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .tours-hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .tour-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .tour-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
